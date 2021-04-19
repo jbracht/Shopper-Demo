@@ -4,7 +4,7 @@ module.exports = router
 router.use('/users', require('./users'))
 
 router.get('/potato', (req, res) => {
-  res.send('taters');
+  res.send('tater tots');
 })
 
 router.use((req, res, next) => {
